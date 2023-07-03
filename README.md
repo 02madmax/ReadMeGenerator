@@ -2,7 +2,7 @@
 
 ## Description
 
-An efficient and consistent read me generator that I will be able to use on future projects
+This application is a basic read me generator that fullfils the basic requirements for a high quality read me file that I will be able to use for future projects
 
 ## Table of Contents
 
@@ -15,11 +15,11 @@ An efficient and consistent read me generator that I will be able to use on futu
 
 ## Installation
 
-In order to install this readme generator you will need to use npm init generate a package.json file and then npm i inquirer
+In order to install this application you will need to run the npm i inquirer
 
 ## Usage
 
-In order to use this program make sure you are working in the Develop directory, and then run node index in the command line
+To use this application, make sure you are in the develop directory and then run the node index command into your CLI
 
 ## License
 
@@ -29,11 +29,11 @@ This application is covered under the None license.
 
 ## Contributing
 
-undefined
+All contributions are welcome, if more prompts are added be sure to follow the format provided
 
 ## Tests
 
-In order to test this application please refer to the usage information
+To test this application refer to the usage information
 
 ## Questions
 
