@@ -1,33 +1,3 @@
-// // TODO: Create a function that returns a license badge based on which license is passed in
-// // If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
-
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
-
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
-// // TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
-//   return `# ${data.title}
-
-// `;
-// }
-
-// module.exports = generateMarkdown;
-
-// function generateMarkdown(answers) {
-//   // Construct the README content using template literals
-//   // Include logic for license badge and other sections
-//   return markdown;
-// }
-
-// module.exports = { generateMarkdown };
-
-
 function generateMarkdown(answers) {
   let markdown = '';
 
@@ -62,7 +32,7 @@ function generateMarkdown(answers) {
 
   // Add contributing section
   markdown += '## Contributing\n\n';
-  markdown += `${answers.contributing}\n\n`;
+  markdown += `${answers.contribution}\n\n`;
 
   // Add tests section
   markdown += '## Tests\n\n';
@@ -75,6 +45,6 @@ function generateMarkdown(answers) {
   markdown += `- Email: ${answers.email}\n\n`;
 
   return markdown;
-}
+};
 
 module.exports = { generateMarkdown };
